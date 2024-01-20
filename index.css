@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(96, 96, 253); */
+    background: linear-gradient(45deg, #3498db, #2980b9, #3498db);
+    margin-top: 80px;
+}
+#calculator{
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 200px;
+
+}
+.button-c{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+#display{
+    margin: 10px;
+    width: 85%;
+    font-size: 25px;
+}
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: purple;
+    cursor: pointer;
+}
+/* .pointer {cursor: pointer;} */
